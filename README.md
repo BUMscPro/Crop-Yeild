@@ -8,7 +8,7 @@ This project was developed as part of our final semester for the Master's progra
 
 ## 👥 Team Members
 
-- MIRAZ MALLIK
+- MIRAJ MALLICK
 - SK RAMIJ HOSSAIN
 - PROLAY MONDAL
 - SANTOSH DEY
