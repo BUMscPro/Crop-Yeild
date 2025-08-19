@@ -1,8 +1,8 @@
-# 🌾 Weather Prediction API for Crop Yield Optimization
+# 🌾 A Machine Learning–Based Approach for Predicting Crop Yields Using Soil and Weather Parameters
 
 ## 🎓 Final Semester Project - M.Sc. in Computer Science
 
-This project was developed as part of our final semester for the Master's program in Computer Science. Our team of five set out to build a Weather Prediction API/AI system that provides weather forecasts for specific districts to assist in crop yield planning and agricultural decision-making.
+This project was developed as part of our final semester for the Master's program in Computer Science. Our team of five set out to build a project with GBR with weather API data  for specific districts to assist in crop yield planning and agricultural decision-making.
 
 ---
 
@@ -18,7 +18,22 @@ This project was developed as part of our final semester for the Master's progra
 
 ## 📌 Project Objective
 
-The goal of this project is to **predict weather conditions** (such as rainfall, temperature, humidity, etc.) in a given district using **machine learning** and **weather data APIs**, to support **agriculture planning** and **crop yield optimization**.
+This project predicts crop yields using soil parameters (N, P, K, pH, area) and weather data (temperature, rainfall, humidity) with the help of Machine Learning (Gradient Boosting Regressor). It provides a Flask backend API and a React frontend dashboard, integrated with real-time weather APIs for accurate and user-friendly predictions.
+
+---
+## 🚀 Features
+
+Predicts crop yield in tons/hectare
+
+Uses Gradient Boosting Regressor (GBR) for high accuracy
+
+Achieved R² score ≈ 0.98 with low RMSE/MAE
+
+Flask-based REST API for serving ML model
+
+React-based web dashboard for user interaction
+
+Integration with weather API for dynamic data
 
 ---
 
@@ -55,16 +70,6 @@ We developed a RESTful API powered by machine learning models trained on histori
 - **Framework**: React + Vite
 - **Styling**: Tailwind CSS
 - **Deployment**: Netlify
-
----
-
-## 🧪 Features
-
-- 📍 District-based weather prediction
-- 🌤️ 7-day weather forecast with key parameters
-- 📊 AI-driven crop yield suggestion (optional)
-- ⚙️ Easy integration into larger AgriTech platforms
-
 ---
 
 ## 📈 Future Enhancements
